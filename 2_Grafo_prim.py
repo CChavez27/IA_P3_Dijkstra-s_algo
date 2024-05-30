@@ -12,7 +12,6 @@ def prim_mst(G):
 
 if __name__ == '__main__':
     G = nx.Graph()
-
     agregar_arista(G, "A", "B", 5)
     agregar_arista(G, "A", "D", 4)
     agregar_arista(G, "A", "E", 2)
