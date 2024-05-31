@@ -39,6 +39,5 @@ if __name__ == '__main__':
     labels_mst = nx.get_edge_attributes(mst, 'weight')
     nx.draw_networkx_edge_labels(mst, pos_mst, edge_labels=labels_mst, ax=ax2)
     ax2.set_title("Árbol Parcial Mínimo (MST) usando Prim")
-
     plt.tight_layout()
     plt.show()
